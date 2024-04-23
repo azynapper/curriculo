@@ -1,0 +1,35 @@
+
+body {
+    background-color: black;
+    font-family: "Texturina", serif;
+}
+
+#facepic {
+    height: 500px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #7000FF;
+    font-family: "Texturina", serif;
+}
+
+.redirects {
+    color: white;
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 250px 0 0 130px;
+}
